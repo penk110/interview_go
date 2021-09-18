@@ -1,0 +1,11 @@
+
+.idea
+.DS_Store
+.air*.conf
+debug*.sh
+
+logs/
+examples/
+tmp/
+
+/**/*_test.go
