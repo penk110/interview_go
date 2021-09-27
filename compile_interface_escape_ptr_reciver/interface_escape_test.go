@@ -25,9 +25,3 @@ func BenchmarkRectangle_Area2(b *testing.B) {
 		Shape(r).Area()
 	}
 }
-
-/*
-
-
-
- */
