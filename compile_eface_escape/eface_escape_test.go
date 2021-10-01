@@ -56,6 +56,24 @@ func BenchmarkUint8(b *testing.B) {
 	b.Logf("ueface: %v", ueface)
 }
 
+func BenchmarkUint(b *testing.B) {
+	var u uint
+	b.Run("uint", func(b *testing.B) {
+		for i := 0; i < b.N; i++ {
+			u = uint(i)
+		}
+	})
+	b.Logf("u: %v", u)
+
+	var ueface interface{}
+	b.Run("uint", func(b *testing.B) {
+		for i := 0; i < b.N; i++ {
+			ueface = uint(i)
+		}
+	})
+	b.Logf("ueface: %v", ueface)
+}
+
 /*
 空接口转换接口性能对比
 
