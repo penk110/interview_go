@@ -6,6 +6,16 @@ import (
 	"sync"
 )
 
+var serverPool *ServerPool
+
+func init() {
+	serverPool = &ServerPool{
+		instances: make([]*ServerInstance, 0),
+		mux:       &sync.Mutex{},
+		size:      0,
+	}
+}
+
 type ServerInstance struct {
 	Name   string
 	Addr   string
@@ -19,15 +29,6 @@ type ServerPool struct {
 	size      uint32
 }
 
-var serverPool *ServerPool
-
-func init() {
-	serverPool = &ServerPool{
-		instances: make([]*ServerInstance, 0),
-		mux:       &sync.Mutex{},
-		size:      0,
-	}
-}
 func (s *ServerPool) Register(ins ...*ServerInstance) {
 	s.mux.Lock()
 	defer s.mux.Unlock()
