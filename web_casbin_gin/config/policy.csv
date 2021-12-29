@@ -1,0 +1,6 @@
+p, user_A, /api/v1/user, GET
+p, user_B, /api/v1/user, POST
+p, user_C, /api/v1/user, GET
+p, admin, /api/v1/user, GET
+p, admin, /api/v1/user, POST
+g, user_A, admin
