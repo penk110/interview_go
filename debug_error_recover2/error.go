@@ -20,12 +20,12 @@ func main() {
 }
 
 /*
-/private/var/folders/wp/0kxj_ktn6xqg0qrrrty0jcr80000gn/T/___go_build_zyphub_interview_go_debug_error_recover2
+/private/var/folders/wp/0kxj_ktn6xqg0qrrrty0jcr80000gn/T/___go_build_penk110_interview_go_debug_error_recover2
 self recover
 自定义无效的recover: <<nil>>！！！
 panic: defer间接调用recover无效！
 
 goroutine 1 [running]:
 main.main()
-        /Users/zhang/gopath/src/zyphub/interview_go/debug_error_recover2/error.go:19 +0x5f
+        /Users/zhang/gopath/src/penk110/interview_go/debug_error_recover2/error.go:19 +0x5f
 */

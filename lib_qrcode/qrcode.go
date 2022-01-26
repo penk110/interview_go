@@ -9,13 +9,13 @@ import (
 func main() {
 	// var png []byte
 	// var err error
-	// png, err = qrcode.Encode("https://github.com/zyphub", qrcode.Medium, 256)
+	// png, err = qrcode.Encode("https://github.com/penk110", qrcode.Medium, 256)
 	// if err != nil {
 	// 	panic(err)
 	// }
 	// fmt.Printf("png: %v\n", string(png))
 
-	err := qrcode.WriteColorFile("https://github.com/zyphub", qrcode.Medium, 256, color.Black, color.White, "qr.png")
+	err := qrcode.WriteColorFile("https://github.com/penk110", qrcode.Medium, 256, color.Black, color.White, "qr.png")
 	if err != nil {
 		panic(err)
 	}

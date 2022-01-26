@@ -31,9 +31,9 @@ panic: 假设写了个bug
 
 goroutine 1 [running]:
 main.NotRecover()
-	/Users/zhang/gopath/src/zyphub/interview_go/defer_panic/main.go:16 +0xca
+	/Users/zhang/gopath/src/penk110/interview_go/defer_panic/main.go:16 +0xca
 main.main()
-	/Users/zhang/gopath/src/zyphub/interview_go/defer_panic/main.go:23 +0x20
+	/Users/zhang/gopath/src/penk110/interview_go/defer_panic/main.go:23 +0x20
 exit status 2
 
 考点：

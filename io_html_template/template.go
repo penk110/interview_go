@@ -16,7 +16,7 @@ func template1() {
 		Name:     "黑影传奇",
 		Category: "武侠小说",
 	}
-	t, err := template.ParseFiles("/Users/zhang/gopath/src/zyphub/interview_go/io_html_template/template.html")
+	t, err := template.ParseFiles("/Users/zhang/gopath/src/penk110/interview_go/io_html_template/template.html")
 	if err != nil {
 		panic(err)
 	}

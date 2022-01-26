@@ -13,6 +13,7 @@ require (
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
 	github.com/shirou/gopsutil/v3 v3.21.12 // indirect
+	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e // indirect
 	github.com/tal-tech/go-zero v1.2.5 // indirect
 	golang.org/x/sys v0.0.0-20220111092808-5a964db01320 // indirect
 )

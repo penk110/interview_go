@@ -76,7 +76,7 @@ go tool pprof cpu.pprof
 		 6.30s  7.76%   100%      6.30s  7.76%  runtime.newstack
 	(pprof) list task
 	Total: 1.35mins
-	ROUTINE ======================== main.task in /Users/zhang/gopath/src/zyphub/interview_go/anaylisis_pprof/temp.go
+	ROUTINE ======================== main.task in /Users/zhang/gopath/src/penk110/interview_go/anaylisis_pprof/temp.go
 		16.36s   1.35mins (flat, cum)   100% of Total
 			 .          .     12:
 			 .          .     13:func task() {
